@@ -1,8 +1,9 @@
 from Crypto.Cipher import AES
 import base64
 import math
+from Crypto.Util import Counter
 
-#16 bytes
+#32 bytes
 encryption_key = 'this is the wireless security la'
 #16 bytes
 initial_vector = 'initial_vector11'

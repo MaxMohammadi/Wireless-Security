@@ -1,0 +1,46 @@
+module 'pycryptodom' is installed
+---CTR Mode Encryption---
+Plaintext: b'We love phoenix. She is our favorite professor!'
+Ciphertext: L7HUaSELkcEjyG+o8LxWakNEYx/PVeqkblkBrasiSRTwFfTp5rsPDmTxcMDaCD0=
+
+---CTR Mode Decryption---
+Decrypted plaintext: b'We love phoenix. She is our favorite professor!'
+
+-----------------------------
+
+---ECB Mode Encryption---
+Plaintext: b'We love phoenix. She is our favorite professor!'
+Ciphertext: b"\r\x00\xf2g\xd3\xc7y0 \x0c&2P\xd0q?|\xb1\x8e2\xc6\xa0zP\xe4\xf4\x05e\xf3\x921\xd3\x8e\x13b\xd3L0_\xe3\xd8\xca\x87\xaa\x99\xe8\x15\xf3C\xe6*!H%\xdfN\x8e0\x9b'V\x94\xf0\xce"
+
+---ECB Mode Decryption---
+Decrypted plaintext: b'We love phoenix. She is our favorite professor!'
+
+-----------------------------
+
+---CBC Mode Encryption---
+Plaintext: b'We love phoenix. She is our favorite professor!'
+Ciphertext: SOCk2qkyulChERdN4rlaG1UZlCW8DWpujcmi+XS3A69M8+f32/+tqt89pVIPoeAY
+
+---CBC Mode Decryption---
+Decrypted plaintext: b'We love phoenix. She is our favorite professor!'
+
+-----------------------------
+
+---CFB Mode Encryption---
+Plaintext: b'We love phoenix. She is our favorite professor!'
+Ciphertext: V3C8bOk3ISpFebxy1HWAk/56JPVcFwQUl17Sq5pz1v8aJhcPFR37Oeh/Be/Sk24=
+
+---CFB Mode Decryption---
+Decrypted plaintext: b'We love phoenix. She is our favorite professor!'
+
+-----------------------------
+
+---OFB Mode Encryption---
+Plaintext: b'We love phoenix. She is our favorite professor!'
+Ciphertext: gQInTQI1uEuwgUIACOBgDv0l4+SUyOP62ygrytNDTYqPKDBR1v2DGZ87fKB0YRM=
+
+---OFB Mode Decryption---
+Decrypted plaintext: b'We love phoenix. She is our favorite professor!'
+
+-----------------------------
+
